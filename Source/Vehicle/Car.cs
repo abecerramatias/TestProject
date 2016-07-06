@@ -33,6 +33,7 @@ namespace Vehicle
             engine.SetRpm(currentRpm);
         }
 
+        //Method to retrieve speed
         public int GetSpeed()
         {
             return engine.GetRpm()/10;
