@@ -25,6 +25,7 @@ namespace Vehicle
             return plate;
         }
 
+        //Method to perform acceleration to x rpm
         public void Accelerate(int rpmToAdd)
         {
             int currentRpm = engine.GetRpm();
