@@ -39,7 +39,7 @@ namespace Vehicle
             return engine.GetRpm()/10;
         }
 
-        //status
+        //status1
         public string GetStatus()
         {
             return engine.GetTemp().GetTemperature() <= MaxEngineTemp ? "ok" : "overheating";
