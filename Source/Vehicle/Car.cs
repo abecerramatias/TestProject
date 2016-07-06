@@ -19,6 +19,7 @@ namespace Vehicle
             plate = p;
         }
 
+        //Get plate of car
         public string GetPlate()
         {
             return plate;
